@@ -1,0 +1,21 @@
+@import url("components/card.css");
+@import url("components/footer.css");
+
+body {
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+}
+p {
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-weight: bold;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+}
