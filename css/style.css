@@ -1,5 +1,11 @@
+/* Importing components */
 @import url("components/card.css");
 @import url("components/footer.css");
+@import url("components/navbar.css");
+
+/* Importing layouts */
+@import url("layouts/split.css");
+@import url("layouts/grid.css");
 
 body {
   margin: 0;
