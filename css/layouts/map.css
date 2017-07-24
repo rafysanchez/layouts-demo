@@ -1,13 +1,5 @@
+/* TODO: design a flexbox layout with sticky map */
 #map {
-  width: 450px;
-  height: 100vh;
-  position: sticky !important;
-  top: 0 !important;
-}
-.content {
-  display: flex;
-  align-items: stretch;
-}
-.main-content {
-  padding: 20px;
+  width: 700px;
+  height: 700px;
 }
