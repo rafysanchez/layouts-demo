@@ -4,10 +4,10 @@
   position: sticky !important;
   top: 0 !important;
 }
-.split {
+.content {
   display: flex;
   align-items: stretch;
 }
-.results {
+.main-content {
   padding: 20px;
 }

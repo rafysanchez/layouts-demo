@@ -9,21 +9,34 @@
     <!-- Bootstrap + Fontawesome CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-
     <link rel="stylesheet" href="css/style.css">
-
   </head>
   <body>
 
-    <div class="container text-center">
+    <div class="container text-center padded">
       <h1>Bootstrap demo</h1>
-      <p>This is Le Wagon's boilerplate to play with Bootstrap</p>
+      <p>Le Wagon's boilerplate to play with Bootstrap</p>
       <!-- TODO: Make this link a button -->
       <a href="#">Make me a button</a>
     </div>
 
-    <div class="container text-center">
-      <h2>Design your card grid</h2>
+    <div class="container padded text-center">
+      <h2>Design responsive forms</h1>
+
+      <!-- TODO: Make a reponsive Bootstrap form, then make it inline -->
+      <form action="">
+        <label for="email">Enter your email</label>
+        <input type="text" placeholder="bob@gmail.com" id="email">
+
+        <label for="password">Enter your password</label>
+        <input type="text" placeholder="•••••••" id="password">
+
+        <input type="submit" value="Sign in">
+      </form>
+    </div>
+
+    <div class="container padded">
+      <h2 class="text-center">Design a card grid</h2>
       <!-- TODO: Use Bootstrap grid -->
       <div class="card" style="background-image: url(images/rio.jpg)">
         Rio
