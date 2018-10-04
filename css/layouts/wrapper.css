@@ -1,0 +1,17 @@
+/* TODO: design a wrapper layout */
+
+.wrapper {
+  padding: 4rem 0;
+}
+
+.wrapper p {
+  font-size: 1rem;
+}
+
+.wrapper-dark {
+  background-color: #343A40;
+  color: white;
+}
+
+
+
