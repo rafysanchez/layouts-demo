@@ -4,21 +4,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Grid Layout demo</title>
+    <title>Flexbox layout demo</title>
 
-    <!-- Bootstrap + Fontawesome CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <!-- No Bootstrap -->
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
-    <div class="text-center pt-3">
-      <h1>Card grid layout</h1>
+    <div class="text-center">
+      <h1>Flexbox layout</h1>
     </div>
 
     <!-- Make a grid for the cards below -->
-    <div class="cards">
+    <div class="cards-container">
       <div class="card" style="background-image: url(http://kitt.lewagon.com/placeholder/cities/rio)">
         Rio
       </div>
@@ -99,5 +97,8 @@
         Lyon
       </div>
     </div>
+
+    <img id="map" src='https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/-122.337798,37.810550,9.67,0.00,0.00/1000x600@2x?access_token=PUBLIC_KEY' >
+
   </body>
 </html>
