@@ -3,6 +3,7 @@
 
 /* --- Components design --- */
 @import url("components/card.css");
+@import url("components/navbar.css");
 
 /* --- Layouts --- */
 /*@import url("layouts/results.css");*/
@@ -11,7 +12,7 @@
 /* --- Fonts & colors --- */
 body {
   font-family: "Open Sans", "Helvetica", "sans-serif";
-  padding-bottom: 200px;
+  margin: 0;
 }
 h1, h2, h3 {
   font-family: "Montserrat", "sans-serif";
