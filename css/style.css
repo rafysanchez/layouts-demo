@@ -1,38 +1,22 @@
-/* Importing Google fonts */
-@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+/* --- Google Fonts --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:400,700");
 
-/* Importing components */
+/* --- Components design --- */
 @import url("components/card.css");
-@import url("components/footer.css");
 @import url("components/navbar.css");
 
-/* Importing layouts */
-@import url("layouts/map.css");
-@import url("layouts/profile.css");
+/* --- Layouts --- */
+/*@import url("pages/campuses.css");*/
 
+
+/* --- Fonts & colors --- */
 body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
   margin: 0;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 18px;
-  background: #F4F4F4;
-}
-p {
-  font-weight: lighter;
 }
 h1, h2, h3 {
-  font-family: 'Varela Round', sans-serif;
-  font-weight: bold;
+  font-family: "Poppins", "sans-serif";
 }
-h1 {
-  font-size: 30px;
-}
-h2 {
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-h3 {
-  font-size: 23px;
-}
-.padded {
-  padding: 30px 0;
+.text-center {
+  text-align: center;
 }
